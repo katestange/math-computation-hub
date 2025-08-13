@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
+import frontPageLogo from "@/assets/front-page-logo.png";
 
 const Index = () => {
   return (
@@ -9,6 +9,9 @@ const Index = () => {
         <div className="space-y-12">
           {/* Hero Section */}
           <div className="text-center space-y-6">
+            <div className="flex justify-center mb-6">
+              <img src={frontPageLogo} alt="Mathematical Pattern" className="w-32 h-32" />
+            </div>
             <div className="space-y-2">
               <h1 className="text-5xl font-serif font-bold text-foreground">
                 Topics in Number Theory: Mathematical Computation

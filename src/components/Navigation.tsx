@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import logoOlive from "@/assets/logo-olive.png";
 
 const Navigation = () => {
   const location = useLocation();
@@ -15,7 +14,6 @@ const Navigation = () => {
       <div className="max-w-4xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src={logoOlive} alt="Math 8110 Logo" className="w-8 h-8" />
             <div>
               <h1 className="text-xl font-serif font-bold text-foreground">
                 Math 8110
