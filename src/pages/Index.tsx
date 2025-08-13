@@ -20,7 +20,7 @@ const Index = () => {
               </h2>
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Welcome to Mathematical Computation, where we explore the intersection of mathematics and computing. 
+              Explore the intersection of mathematics and computing. 
               Learn to harness the power of computational tools for solving complex mathematical problems.
             </p>
           </div>
