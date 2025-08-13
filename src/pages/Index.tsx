@@ -19,6 +19,9 @@ const Index = () => {
               <h2 className="text-2xl font-serif text-math-blue">
                 Math 8110 • Fall 2025
               </h2>
+              <h3 className="text-xl font-serif text-muted-foreground">
+                Katherine E. Stange
+              </h3>
             </div>
           </div>
 
