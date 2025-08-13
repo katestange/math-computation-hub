@@ -19,10 +19,6 @@ const Index = () => {
                 Math 8110 • Fall 2025
               </h2>
             </div>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Explore the intersection of mathematics and computing. 
-              Learn to harness the power of computational tools for solving complex mathematical problems.
-            </p>
           </div>
 
           {/* Course Overview */}
@@ -36,24 +32,6 @@ const Index = () => {
                 applications using SageMath software. We'll cover numerical analysis, symbolic computation, 
                 visualization techniques, and algorithmic problem-solving approaches.
               </p>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-                <div className="flex items-center space-x-2 p-3 rounded-lg bg-accent/50">
-                  <Calculator className="h-5 w-5 text-math-blue" />
-                  <span className="text-sm font-medium">Numerical Methods</span>
-                </div>
-                <div className="flex items-center space-x-2 p-3 rounded-lg bg-accent/50">
-                  <BookOpen className="h-5 w-5 text-math-blue" />
-                  <span className="text-sm font-medium">Symbolic Computing</span>
-                </div>
-                <div className="flex items-center space-x-2 p-3 rounded-lg bg-accent/50">
-                  <Users className="h-5 w-5 text-math-blue" />
-                  <span className="text-sm font-medium">Collaborative Projects</span>
-                </div>
-                <div className="flex items-center space-x-2 p-3 rounded-lg bg-accent/50">
-                  <Calendar className="h-5 w-5 text-math-blue" />
-                  <span className="text-sm font-medium">Applied Research</span>
-                </div>
-              </div>
             </CardContent>
           </Card>
 
