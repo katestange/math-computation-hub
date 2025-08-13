@@ -1,7 +1,11 @@
 import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 
 const SageInstallation = () => {
+  useEffect(() => {
+    document.title = "SageMath";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -9,7 +13,7 @@ const SageInstallation = () => {
         <div className="space-y-8">
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-serif font-bold text-foreground">
-              Installing Sage
+              SageMath
             </h1>
           </div>
 
@@ -26,19 +30,24 @@ const SageInstallation = () => {
             <p className="text-muted-foreground leading-relaxed text-lg mt-4">
               If you have trouble installing Sage, your most expedient option nowadays is to ask ChatGPT for help. You can paste in error messages etc. and it can help you troubleshoot.
             </p>
+            <p className="text-muted-foreground leading-relaxed text-lg mt-4">
+              Graduate students have access to Sage at sage.colorado.edu via their identikey.
+            </p>
           </div>
 
-          <div className="space-y-4 mt-8">
-            <Button asChild>
-              <a href="https://www.sagemath.org/" target="_blank" rel="noopener noreferrer">
-                SageMath Official Website
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href="https://sage.colorado.edu/" target="_blank" rel="noopener noreferrer">
-                sage.colorado.edu
-              </a>
-            </Button>
+          <div className="text-center mt-8">
+            <a href="https://doc.sagemath.org/html/en/installation/index.html" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">
+              Sage Installation Guide
+            </a>
+          </div>
+
+          <div className="flex justify-center space-x-8 mt-8">
+            <a href="https://www.sagemath.org/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">
+              SageMath Official Website
+            </a>
+            <a href="https://sage.colorado.edu/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">
+              sage.colorado.edu
+            </a>
           </div>
         </div>
       </main>

@@ -18,8 +18,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 12%;
 
-    /* Deep academic blue for primary elements */
-    --primary: 215 89% 25%;
+    /* Light olive green for primary elements */
+    --primary: 82 25% 45%;
     --primary-foreground: 0 0% 98%;
 
     /* Warm secondary tones */
@@ -37,19 +37,19 @@ All colors MUST be HSL.
 
     --border: 215 15% 91%;
     --input: 215 15% 91%;
-    --ring: 215 89% 35%;
+    --ring: 82 25% 55%;
 
     --radius: 0.25rem;
 
     /* Custom mathematical theme colors */
-    --math-blue: 215 89% 25%;
-    --math-blue-light: 215 89% 35%;
+    --math-blue: 82 25% 45%;
+    --math-blue-light: 82 25% 55%;
     --math-gold: 45 85% 50%;
     --math-gold-light: 45 85% 92%;
     
     /* Gradients for hero sections */
-    --gradient-primary: linear-gradient(135deg, hsl(215 89% 25%), hsl(215 89% 35%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 99%), hsl(215 15% 98%));
+    --gradient-primary: linear-gradient(135deg, hsl(82 25% 45%), hsl(82 25% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 99%), hsl(82 5% 98%));
     
     /* Elegant shadows */
     --shadow-elegant: 0 4px 6px -1px hsl(215 15% 15% / 0.1), 0 2px 4px -1px hsl(215 15% 15% / 0.06);
@@ -84,8 +84,8 @@ All colors MUST be HSL.
     --popover: 215 25% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 215 89% 65%;
-    --primary-foreground: 215 25% 6%;
+    --primary: 82 25% 65%;
+    --primary-foreground: 82 25% 6%;
 
     --secondary: 215 15% 12%;
     --secondary-foreground: 0 0% 95%;
@@ -101,16 +101,16 @@ All colors MUST be HSL.
 
     --border: 215 15% 15%;
     --input: 215 15% 15%;
-    --ring: 215 89% 65%;
+    --ring: 82 25% 65%;
 
     /* Dark theme mathematical colors */
-    --math-blue: 215 89% 65%;
-    --math-blue-light: 215 89% 75%;
+    --math-blue: 82 25% 65%;
+    --math-blue-light: 82 25% 75%;
     --math-gold: 45 85% 60%;
     --math-gold-light: 45 85% 25%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(215 89% 45%), hsl(215 89% 65%));
-    --gradient-subtle: linear-gradient(180deg, hsl(215 25% 6%), hsl(215 15% 8%));
+    --gradient-primary: linear-gradient(135deg, hsl(82 25% 45%), hsl(82 25% 65%));
+    --gradient-subtle: linear-gradient(180deg, hsl(82 25% 6%), hsl(82 15% 8%));
     
     --shadow-elegant: 0 4px 6px -1px hsl(0 0% 0% / 0.25), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
     --shadow-card: 0 1px 3px 0 hsl(0 0% 0% / 0.2), 0 1px 2px 0 hsl(0 0% 0% / 0.05);

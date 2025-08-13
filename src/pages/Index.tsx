@@ -19,26 +19,16 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Course Overview */}
+          {/* Main Content */}
           <section className="border-t border-border pt-12">
-            <h2 className="text-2xl font-serif font-semibold mb-6">Course Overview</h2>
+            <h2 className="text-2xl font-serif font-semibold mb-6">Welcome to Math 8110: Topics in Number Theory</h2>
             <div className="prose max-w-none">
-              <p className="text-muted-foreground leading-relaxed text-lg">
-                Welcome to Math 8110: Topics in Number Theory
-              </p>
               <p className="text-muted-foreground leading-relaxed text-lg mt-4">
                 You will be bringing your laptop to class every day; this is a workshop, not lecture, course.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg mt-4">
-                Before the first day of class, please try to get Sage installed on your own machine. This is the most reliable option. Sage is also available to graduate students at sage.colorado.edu.
+                Before the first day of class, please try to get <a href="/sage-installation" className="text-primary underline hover:no-underline">Sage installed on your own machine</a>. This is the most reliable option. Sage is also available to graduate students at sage.colorado.edu.
               </p>
-              <div className="mt-6">
-                <Button asChild>
-                  <a href="/sage-installation">
-                    Sage Installation Guide
-                  </a>
-                </Button>
-              </div>
             </div>
           </section>
         </div>
