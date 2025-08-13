@@ -39,7 +39,7 @@ All colors MUST be HSL.
     --input: 215 15% 91%;
     --ring: 215 89% 35%;
 
-    --radius: 0.75rem;
+    --radius: 0.25rem;
 
     /* Custom mathematical theme colors */
     --math-blue: 215 89% 25%;
