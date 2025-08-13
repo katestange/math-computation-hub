@@ -131,7 +131,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground antialiased;
+    font-family: "Times New Roman", Times, serif;
     font-feature-settings: 'liga' 1, 'kern' 1;
   }
 
