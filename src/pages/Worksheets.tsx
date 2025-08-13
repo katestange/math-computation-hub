@@ -7,11 +7,11 @@ const Worksheets = () => {
   }, []);
 
   const worksheets = [
-    { date: "September 5, 2025", subject: "Introduction to SageMath", link: "" },
-    { date: "September 12, 2025", subject: "Basic Number Theory Functions", link: "" },
-    { date: "September 19, 2025", subject: "Modular Arithmetic", link: "" },
-    { date: "September 26, 2025", subject: "Prime Numbers and Factorization", link: "" },
-    { date: "October 3, 2025", subject: "Cryptographic Applications", link: "" },
+    { date: "Friday, August 22, 2025", subject: "Introduction to SageMath", link: "" },
+    { date: "Monday, August 25, 2025", subject: "Modular Arithmetic", link: "" },
+    { date: "Wednesday, August 27, 2025", subject: "TBA", link: "" },
+    { date: "Friday, August 29, 2025", subject: "TBA", link: "" },
+    { date: "Monday, September 2, 2025", subject: "TBA", link: "" },
   ];
 
   return (
