@@ -29,10 +29,10 @@ const Navigation = () => {
                 key={link.href}
                 to={link.href}
                 className={cn(
-                  "px-4 py-2 rounded-md text-sm font-medium transition-colors",
+                  "px-4 py-2 text-sm transition-colors border-b-2 border-transparent",
                   location.pathname === link.href
-                    ? "bg-accent text-accent-foreground"
-                    : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
+                    ? "text-primary font-bold border-b-primary"
+                    : "text-muted-foreground font-medium hover:text-foreground"
                 )}
               >
                 {link.label}
