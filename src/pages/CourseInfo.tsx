@@ -29,6 +29,8 @@ const CourseInfo = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 The goals of the course are:
               </p>
+
+              <h3 className="text-xl font-serif font-semibold mt-6 mb-3 text-foreground">Goals of the course</h3>
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
                 <li>Learn the basics of the classical computational algorithms for mathematics (things like space and time complexity, Monte Carlo and Las Vegas algorithms, standard assumptions);</li>
                 <li>Study some important examples of such algorithms (e.g. euclidean algorithm, index-calculus-type methods, random walks, lattice reduction, etc.);</li>

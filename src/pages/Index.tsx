@@ -33,7 +33,7 @@ const Index = () => {
                 You will be bringing your laptop to class every day; this is a workshop, not lecture, course.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg mt-4">
-                Before the first day of class, please try to get <a href="/sage-installation" className="text-primary underline hover:no-underline">Sage installed on your own machine</a>. This is the most reliable option. Sage is also available to graduate students at <a href="https://sage.colorado.edu/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">sage.colorado.edu</a>.
+                Before the first day of class, please try to get <a href="#/sage-installation" className="text-primary underline hover:no-underline">Sage installed on your own machine</a>. This is the most reliable option. Sage is also available to graduate students at <a href="https://sage.colorado.edu/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">sage.colorado.edu</a>.
               </p>
             </div>
           </section>
