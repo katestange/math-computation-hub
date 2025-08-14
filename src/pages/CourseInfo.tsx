@@ -26,9 +26,6 @@ const CourseInfo = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 The course will be run as a series of workshops/activities (not lecture). You should have a laptop and access to Sage Math for every day (contact me ahead to get this sorted out as needed). Students will have a great deal of autonomy, especially later in the course.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                The goals of the course are:
-              </p>
 
               <h3 className="text-xl font-serif font-semibold mt-6 mb-3 text-foreground">Goals of the course</h3>
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
