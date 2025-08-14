@@ -18,7 +18,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-3">
             <div>
               <h1 className="text-xl font-serif font-bold text-foreground">
-                Math 8110
+                Math 8114
               </h1>
               <p className="text-sm text-muted-foreground">Fall 2025</p>
             </div>

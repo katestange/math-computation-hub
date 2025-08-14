@@ -17,7 +17,7 @@ const Index = () => {
                 Topics in Number Theory: Mathematical Computation
               </h1>
               <h2 className="text-2xl font-serif text-math-blue">
-                Math 8110 • Fall 2025
+                Math 8114 • Fall 2025
               </h2>
               <h3 className="text-xl font-serif text-muted-foreground">
                 Katherine E. Stange
@@ -27,7 +27,7 @@ const Index = () => {
 
           {/* Main Content */}
           <section className="border-t border-border pt-12">
-            <h2 className="text-2xl font-serif font-semibold mb-6">Welcome to Math 8110: Topics in Number Theory</h2>
+            <h2 className="text-2xl font-serif font-semibold mb-6">Welcome to Math 8114: Topics in Number Theory</h2>
             <div className="prose max-w-none">
               <p className="text-muted-foreground leading-relaxed text-lg mt-4">
                 You will be bringing your laptop to class every day; this is a workshop, not lecture, course.
