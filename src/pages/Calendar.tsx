@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const Worksheets = () => {
   useEffect(() => {
-    document.title = "Worksheets";
+    document.title = "Calendar";
   }, []);
 
   const worksheets = [
@@ -21,7 +21,7 @@ const Worksheets = () => {
         <div className="space-y-8">
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-serif font-bold text-foreground">
-              Worksheets
+              Calendar
             </h1>
           </div>
 

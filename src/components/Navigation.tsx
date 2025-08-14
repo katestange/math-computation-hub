@@ -7,7 +7,8 @@ const Navigation = () => {
   const links = [
     { href: "/", label: "Home" },
     { href: "/sage-installation", label: "Sage Installation" },
-    { href: "/worksheets", label: "Worksheets" },
+    { href: "/calendar", label: "Calendar" },
+    { href: "/course-info", label: "Course Info" },
   ];
 
   return (
