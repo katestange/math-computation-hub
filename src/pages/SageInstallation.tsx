@@ -31,7 +31,7 @@ const SageInstallation = () => {
               If you have trouble installing Sage, your most expedient option nowadays is to ask ChatGPT for help. You can paste in error messages etc. and it can help you troubleshoot.
             </p>
             <p className="text-muted-foreground leading-relaxed text-lg mt-4">
-              Graduate students have access to Sage at sage.colorado.edu via their identikey.
+              Graduate students have access to Sage at <a href="https://sage.colorado.edu/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">sage.colorado.edu</a> via their identikey.
             </p>
           </div>
 
