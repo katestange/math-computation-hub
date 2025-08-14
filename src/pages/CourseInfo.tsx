@@ -37,13 +37,12 @@ const CourseInfo = () => {
                 <li>Learn some interesting number theory; and</li>
                 <li>Have copious time for individual projects.</li>
               </ol>
-              
-              <h3 className="text-xl font-serif font-semibold mt-6 mb-3 text-foreground">Semester plan:</h3>
+
+              <h3 className="text-xl font-serif font-semibold mt-6 mb-3 text-foreground">Vague semester plan</h3>
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
-                <li><strong>Week 1:</strong> Python coding worksheets. You can work from where you are (including total beginner).</li>
-                <li><strong>Week 2-6:</strong> Case studies in number theory.</li>
-                <li><strong>Week 7-13:</strong> Individual projects. Each day 1-2 students will present on their problem/progress and the group will discuss, then we will have working time.</li>
-                <li><strong>Week 14-15:</strong> Student final presentations.</li>
+                <li><strong>Week 1-5:</strong> Case studies in number theory that build coding skills and knowledge.</li>
+                <li><strong>Week 6-13:</strong> Individual projects. Each day 1-2 students will present on their problem/progress and the group will discuss, then we will have working time.</li>
+                <li><strong>Week 13-15:</strong> Student final presentations.</li>
               </ol>
             </section>
 
@@ -97,10 +96,10 @@ const CourseInfo = () => {
                 All standard CU required syllabus statements apply to this class. See:
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                <a 
-                  href="https://www.colorado.edu/academicaffairs/policies-customs-guidelines/required-syllabus-statements" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <a
+                  href="https://www.colorado.edu/academicaffairs/policies-customs-guidelines/required-syllabus-statements"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-primary underline hover:no-underline"
                 >
                   https://www.colorado.edu/academicaffairs/policies-customs-guidelines/required-syllabus-statements
