@@ -7,7 +7,7 @@ const Worksheets = () => {
   }, []);
 
   const worksheets = [
-    { date: "Friday, August 22, 2025", subject: "Introduction to SageMath", link: "" },
+    { date: "Friday, August 22, 2025", subject: "Case Study One: Quadratic Residues", link: "notebooks/CS01-LegendreSymbols-Empty.ipynb" },
     { date: "Monday, August 25, 2025", subject: "Modular Arithmetic", link: "" },
     { date: "Wednesday, August 27, 2025", subject: "TBA", link: "" },
     { date: "Friday, August 29, 2025", subject: "TBA", link: "" },
@@ -36,7 +36,18 @@ const Worksheets = () => {
                     <p className="text-muted-foreground">{worksheet.date}</p>
                   </div>
                   <div className="text-muted-foreground text-sm">
-                    Link coming soon
+                    {worksheet.link ? (
+                      <a 
+                        href={worksheet.link} 
+                        className="text-primary hover:underline"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        View Notebook
+                      </a>
+                    ) : (
+                      "Link coming soon"
+                    )}
                   </div>
                 </div>
               </div>
